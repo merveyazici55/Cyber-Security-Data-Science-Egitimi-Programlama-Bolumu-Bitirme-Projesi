@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo App</title>
+</head>
+<body>
+    <h1>Todo App</h1>
+    <form action="/add" method="POST">
+        <input type="text" name="title" placeholder="Todo Başlığı" required>
+        <input type="datetime-local" name="reminder" required>
+        <button type="submit">Ekle</button>
+    </form>
+    <ul>
+        {% for todo in todos %}
+            <li>
+                <form action="/update/{{ todo.id }}" method="POST">
+                    <input type="text" name="title" value="{{ todo.title }}" required>
+                    <input type="datetime-local" name="reminder" value="{{ todo.reminder|default(' ') }}">
+                    <button type="submit">Güncelle</button>
+                </form>
+                {% if not todo.completed %}
+                    <a href="/complete/{{ todo.id }}">Tamamla</a>
+                {% endif %}
+                <a href="/delete/{{ todo.id }}">Sil</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

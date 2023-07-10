@@ -1,0 +1,17 @@
+ORM, "Object-Relational Mapping" (Nesne-İlişkisel Eşleme) kısaltmasıdır ve ilişkisel veritabanlarındaki verileri nesne tabanlı programlama dillerinde kullanmayı sağlayan bir tekniktir. ORM, veritabanı tablolarını nesneler olarak temsil ederek, veritabanıyla etkileşimde bulunmak için nesne yönelimli programlama (OOP) yaklaşımını kullanır.
+
+ORM'nin amacı, veritabanı işlemlerini daha kolay ve daha verimli hale getirmektir. Geleneksel SQL sorgularını doğrudan kullanmak yerine, ORM aracılığıyla nesne tabanlı sorgular kullanılır. Bu şekilde, veritabanı işlemleri daha anlaşılır, sürdürülebilir ve taşınabilir hale gelir.
+
+SQLAlchemy, Python programlama dili için popüler bir ORM kütüphanesidir. SQLAlchemy, ORM konseptini benimseyerek, veritabanı işlemlerini Python nesneleri üzerinden gerçekleştirmenizi sağlar. SQLAlchemy, çeşitli veritabanı sistemleriyle uyumlu bir şekilde çalışabilen bir ORM çözümüdür ve esnekliği ile öne çıkar.
+
+SQLAlchemy'nin temel özellikleri şunlardır:
+
+1. Nesne Tabanlı Veri Modelleri: SQLAlchemy, veritabanı tablolarını Python sınıfları olarak temsil eden nesne tabanlı veri modelleri kullanır. Her bir tablo, bir Python sınıfıdır ve tablo sütunları, sınıf özellikleriyle eşleşir.
+
+2. Sorgu Oluşturma: SQLAlchemy, veritabanı sorgularını Python koduyla oluşturmanızı sağlar. SQL dilini doğrudan kullanmak yerine, SQLAlchemy'nin sağladığı sorgu nesneleriyle sorguları oluşturabilir ve düzenleyebilirsiniz.
+
+3. Veritabanı Bağımsızlık: SQLAlchemy, farklı veritabanı sistemlerine uyum sağlar. Aynı SQLAlchemy kodunu farklı veritabanı sistemlerinde kullanabilirsiniz. Bu şekilde, veritabanı değişiklikleri durumunda uygulama kodunu yeniden yazmak zorunda kalmazsınız.
+
+4. Transaction Yönetimi: SQLAlchemy, veritabanı işlemlerini işlem (transaction) kavramı üzerinden yönetir. İşlemler, veritabanı işlemlerinin tutarlı ve güvenli bir şekilde gerçekleştirilmesini sağlar.
+
+ORM ve SQLAlchemy, veritabanı işlemlerini kolaylaştırır ve veritabanıyla etkileşimi daha hızlı, daha güvenli ve daha verimli hale getirir. SQLAlchemy, özellikle Python tabanlı web uygulamalarında yaygın olarak kullanılan bir ORM kütüphanesidir ve Flask gibi web çerçeveleriyle entegre bir şekilde çalışabilir.

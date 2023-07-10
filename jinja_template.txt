@@ -1,0 +1,15 @@
+Jinja, Flask gibi Python tabanlı web çerçevelerinde kullanılan bir template motorudur. Jinja, web uygulamalarında dinamik içerik üretmek için HTML şablonlarının kullanılmasını sağlar.
+
+Jinja template, HTML belgelerinde değişkenler, kontrol yapıları ve döngüler gibi dinamik içeriği oluşturmak için kullanılan bir şablondur. Şablonlar, web uygulamalarında veritabanından veya başka kaynaklardan alınan verileri HTML sayfalarına entegre etmek için kullanılır. Böylece, kullanıcıya sunulan içerik dinamik olarak oluşturulabilir.
+
+Jinja template motorunun temel özellikleri şunlardır:
+
+1. Değişkenler: Jinja, HTML şablonları içinde değişkenler kullanmanızı sağlar. Bu değişkenler, web uygulamasının veritabanından veya başka kaynaklardan çektiği verileri temsil eder. Değişkenleri şablonda kullanarak, dinamik içeriği görüntüleyebilirsiniz.
+
+2. Kontrol Yapıları: Jinja, şablonlarda if-else ifadeleri, döngüler ve diğer kontrol yapılarını kullanmanızı sağlar. Bu yapılar sayesinde, şablonda belirli koşullara veya tekrarlanan verilere göre içerikleri kontrol edebilirsiniz.
+
+3. Şablon Kalıtımı: Jinja, şablon kalıtımı sağlar. Bu özellik sayesinde, ortak şablon parçalarını ana şablonda tanımlayabilir ve alt şablonlarda kullanabilirsiniz. Şablon kalıtımı, web sayfalarının yapısını düzenlemek ve tekrar kullanılabilirliği artırmak için kullanışlıdır.
+
+Jinja, Flask çerçevesiyle entegre olarak gelir ve Flask projelerinde varsayılan template motoru olarak kullanılır. Jinja'nın belirli bir sözdizimi vardır ve {% %}, {{ }}, {# #} gibi özel etiketler kullanarak Jinja ifadelerini tanımlayabilirsiniz.
+
+Özetlemek gerekirse, Jinja template motoru, Python tabanlı web uygulamalarında dinamik içerik oluşturmak için kullanılan bir şablondur. Değişkenler, kontrol yapıları ve şablon kalıtımı gibi özelliklerle web sayfalarını dinamik hale getirebilir ve veritabanı veya diğer kaynaklardan alınan verileri HTML şablonlarına entegre edebilirsiniz.
